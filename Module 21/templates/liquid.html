@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liquid</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}">
+
+</head>
+<body>
+     <div id="header">
+        <h2>State of Matter</h2>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="{{ url_for('home_') }}" class="nav">Home</a></li>
+            <li><a href="{{ url_for('login') }}" class="nav">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h4>Liquid</h4>
+        <p>In a liquid, the particles are more loosely packed than in a solid and are able to flow
+            around each other, giving the liquid an indefinite shape. Therefore, the liquid will conform
+            to the shape of its container. Much like solids, liquids (most of which have a lower density
+            than solids) are incredibly difficult to compress.
+        </p>
+
+    </div>
+    <img src="/static/images/liquid.png" style="width: 25%">
+    <h3> Example: </h3>
+    <div class="example">
+        <h4>Water</h4><br>
+        <img src="/static/images/water.jpg" style="width: 50%">
+    </div>
+    <div class="example">
+        <h4>Blood</h4><br>
+        <img src="/static/images/blood.jpg" style="width: 50%">
+    </div>
+
+</body>
+</html>

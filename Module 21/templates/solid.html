@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solid</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}">
+</head>
+<body>
+    <div id="header">
+            <h2>State of Matter</h2>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="{{ url_for('home_') }}" class="nav">Home</a></li>
+            <li><a href="{{ url_for('login') }}" class="nav">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h4>Solid</h4>
+        <p>In a solid, particles are packed tightly together so they don't move much. The electrons of
+            each atom are constantly in motion, so the atoms have a small vibration, but they are fixed
+            in their position. Because of this, particles in a solid have very low kinetic energy.
+            Solids have a definite shape, as well as mass and volume, and do not conform to the shape of
+            the container in which they are placed. Solids also have a high density, meaning that the
+            particles are tightly packed together.
+        </p>
+
+    </div>
+    <img src="/static/images/solid.png" style="width: 25%">
+    <h3> Example: </h3>
+    <div class="example">
+        <h4>Ice</h4><br>
+        <img src="/static/images/ice.jpg" style="width: 50%">
+    </div>
+    <div class="example">
+        <h4>Pillow</h4><br>
+        <img src="/static/images/pillow.jpg" style="width: 50%">
+    </div>
+
+</body>
+</html>

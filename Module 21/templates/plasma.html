@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plasma</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}">
+</head>
+<body>
+    <div id="header">
+            <h2>State of Matter</h2>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="{{ url_for('home_') }}" class="nav">Home</a></li>
+            <li><a href="{{ url_for('login') }}" class="nav">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h4>Plasma</h4>
+        <p>Plasma is not a common state of matter here on Earth, but it may be the most common state
+            of matter in the universe, according to the Jefferson Laboratory(opens in new tab).
+            Stars are essentially superheated balls of plasma. Plasma consists of highly charged particles
+            with extremely high kinetic energy. The noble gases (helium, neon, argon, krypton, xenon and radon)
+            are often used to make glowing signs by using electricity to ionize them to the plasma state.
+        </p>
+
+    </div>
+    <img src="https://image.shutterstock.com/image-illustration/plasma-fourth-state-matter-260nw-1687892761.jpg" style="width: 17.5%">
+    <h3> Example: </h3>
+    <div class="example">
+        <h4>Lighting</h4><br>
+        <img src="/static/images/light.jpg" style="width: 50%">
+    </div>
+    <div class="example">
+        <h4>Aurora</h4><br>
+        <img src="/static/images/aurora.jpg" style="width: 50%">
+    </div>
+
+</body>
+</html>

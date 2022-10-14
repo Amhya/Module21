@@ -1,0 +1,61 @@
+body{
+	background-image: url('https://www.learnupon.com/wp-content/uploads/Blog-Learner-Centered-1200x628-1.png');
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	font-size: 20px;
+}
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-family: arial, sans-serif;
+
+}
+
+.content {
+	position: relative;
+	width: 600px;
+	max-width: 100%;
+	margin: 20px;
+	background: white;
+    margin-top: 15%;
+	padding: 60px 40px;
+	text-align: center;
+    opacity: 0.9;
+	box-shadow: -10px 10px 67px -12px rgba(0,0,0,0.2);
+
+}
+input{
+    padding: 10px;
+	font-size: 15px;
+	border: 1px solid grey;
+	width: 40%;
+	border-radius: 3px;
+	outline: 0;
+	border-width: 2px 2px 2px;
+	border-color: grey;
+	background-color: white;
+}
+p {
+	font-size: 1.3rem;
+	margin-top: 0;
+	margin-bottom: 0.6rem;
+	letter-spacing: 0.1rem;
+
+		
+}
+	
+button {
+	display: inline-block;
+	margin-top: 2rem;
+	padding: 0.5rem 1rem;
+	border: 3px solid;
+	background: transparent;
+	font-size: 1rem;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+}

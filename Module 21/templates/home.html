@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}">
+    <script>
+			var user = '{{user}}'
+			if (user !== "") {
+            window.alert("Welcome: "+user)
+        }
+		</script>
+</head>
+<body>
+    <div id="header">
+        <h2>State of Matter</h2>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="{{ url_for('home_') }}" class="nav">Home</a></li>
+            <li><a href="{{ url_for('login') }}" class="nav">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h4>State of Matter</h4>
+        <p>All matter is made up of atoms, which are in turn made up of protons, neutrons and electrons.
+            Atoms come together to form molecules, which are the building blocks for all types of matter,
+            according to Washington State University(opens in new tab). Both atoms and molecules are held
+            together by a form of potential energy called chemical energy. Unlike kinetic energy, which is
+            the energy of an object in motion, potential energy is the energy stored in an object.
+        </p>
+
+    </div>
+    <img src="https://cdn.mos.cms.futurecdn.net/mUjA3TFQxkzAvvGbMwqqNa-1200-80.jpg.webp">
+    <a href="{{ url_for('gas') }}">
+        <div class="content">
+            <h3>Gas</h3>
+        </div>
+        </a>
+    <a href="{{ url_for('liquid') }}">
+        <div class="content">
+            <h3>Liquid</h3>
+        </div>
+    </a>
+    <a href="{{ url_for('solid') }}">
+        <div class="content">
+            <h3>Solid</h3>
+        </div>
+    </a>
+    <a href="{{ url_for('plasma') }}">
+        <div class="content">
+            <h3>Plasma</h3>
+        </div>
+    </a>
+
+</body>
+</html>

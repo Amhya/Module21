@@ -1,0 +1,109 @@
+body{
+    background-color:  #ecf9f2;
+    background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	font-size: 20px;
+}
+#header{
+	background-image: url("/static/images/wall.png");
+	background-position: center;
+	font-family: Rockwell;
+
+	float: left;
+	width: 100%;
+	background-size: cover;
+
+	box-shadow: rgba(0, 0, 0, 0.09)
+	0px 2px 1px, rgba(0, 0, 0, 0.09)
+	0px 4px 2px, rgba(0, 0, 0, 0.09)
+	0px 8px 4px, rgba(0, 0, 0, 0.09)
+	0px 16px 8px, rgba(0, 0, 0, 0.09)
+	0px 32px 16px;
+
+}
+h2{
+	margin: 2.5%;
+	color: white;
+}
+#navigation{
+	padding-top: 2%;
+	margin-left:80% ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	font-family: Lucida Sans, serif;
+
+}
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: #749F82;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+a{
+  display: block;
+  color: #749F82;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav:hover{
+	background-color: transparent;
+	border-radius: 0;
+	border-bottom: 7px solid #425F57;
+	color:#425F57 ;
+
+}
+
+
+#container{
+	align-items: center;
+	width:55%;
+	justify-content: center;
+	color: black;
+	font-family: arial, sans-serif;
+	float: left;
+	margin-left: 2.5%;
+}
+img{
+	width: 20%;
+	margin: 2.5%;
+	margin-left: 5%;
+
+
+}
+.content {
+	position: relative;
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+	background: white;
+    margin-top: 2.5%;
+	padding: 45px 30px;
+	text-align: center;
+    opacity: 0.9;
+	box-shadow: -10px 10px 67px -12px rgba(0,0,0,0.2);
+
+}
+h3{
+	margin-left: 2.5%;
+}
+.example {
+	width: 20%;
+	float: left;
+	font-family: arial, sans-serif;
+	margin-left: 5%;
+	background: #d1e0e0;
+    opacity: 0.9;
+	box-shadow: -10px 10px 67px -12px rgba(0,0,0,0.2);
+
+}
+

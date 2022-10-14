@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gas</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}">
+
+</head>
+<body>
+    <div id="header">
+        <h2>State of Matter</h2>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="{{ url_for('home_') }}" class="nav">Home</a></li>
+            <li><a href="{{ url_for('login') }}" class="nav">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h4>Gas</h4>
+        <p>In a gas, the particles have a great deal of space between them and have high kinetic energy.
+            A gas has no definite shape or volume. If unconfined, the particles of a gas will spread
+            out indefinitely; if confined, the gas will expand to fill its container. When a gas is put
+            under pressure by reducing the volume of the container, the space between particles is
+            reduced and the gas is compressed.
+        </p>
+
+    </div>
+    <img src="/static/images/gas.png" style="width: 25%">
+    <h3> Example: </h3>
+    <div class="example">
+        <h4>Smoke</h4><br>
+        <img src="/static/images/smoke.jpg" style="width: 50%">
+    </div>
+    <div class="example">
+        <h4>Helium</h4><br>
+        <img src="/static/images/helium.jpg" style="width: 35%">
+    </div>
+
+</body>
+</html>
